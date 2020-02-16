@@ -1,0 +1,59 @@
+*{  
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/img/escritorio.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container, .form-title{
+    text-align: center;
+}
+
+.form-title, .container, .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color:#fff;
+}
+
+.container{
+    background: rgba(0, 0, 0, 0.6);
+    width: 90%;
+    max-width: 650px;
+    height: 500px;
+    margin:auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;    
+}
+
+.container .form .form-label{
+    display:block;
+    height: 25px;
+}
+
+.btn-submit{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-submit{
+    background: none;
+    color:#ccc;
+    width: 140px;
+    height: 30px;
+    border: 1px solid #684e2f;
+    font-size: 18px;
+    border-radius: 4px;
+    transition: .6s;
+    overflow: hidden;
+}
+
+.btn-submit:hover{
+    background: #3b83bd
+}

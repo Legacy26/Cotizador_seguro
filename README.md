@@ -15,4 +15,4 @@ El mismo esta divido por 5 segmentos:
 Maneja un rango de antiguedad de 20 años (*lease desde el año 2000 al 2020*), donde por cada año que sea menor, el precio del seguro disminuye un 3%.  
 Tambien cuenta con una variable que permite elegir entre un seguro *estandar* o uno de tipo *completo*
 
-!(Desktop/prueba.png)
+![](Desktop/prueba.png)
